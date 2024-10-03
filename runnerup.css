@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Special+Elite&display=swap');
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display:flex;
+    background-image: url('https://78.media.tumblr.com/7eb6623e389afe3213373d3f2ce174b1/tumblr_p7aolkPJqI1xpo2ako1_500.gif');
+    font-family: 'monospace';
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#top{
+    font-size: 100px;
+    color: white;
+}
+
+.group{
+    width: auto;
+    text-align: center;
+}
+
+#line{
+    font-size: 60px;
+    color: white;
+}
+
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 1;  /* Fully visible */
+    }
+    25%, 75% {
+        opacity: 0;  /* Invisible */
+    }
+}
+
+h1 {
+    margin-top: 20px;
+    padding: 10px;              /* Add some padding inside the box */
+    background-color: black;    /* Black background for the box */
+    border: 2px;    /* White border around the box */
+    color: white;               /* Make the text white */
+    text-align: center;         /* Center the text inside the box */
+    width: fit-content;         /* Adjust width based on the content */
+    margin: 20px auto;          /* Center the box horizontally */
+    border-radius: 0px;        /* Optional: Rounded corners for the box */
+    opacity: 70%;
+    animation: blink 1s 3;
+    font-family: 'Creepster';
+    font-size: 150px !important;
+}
+
+h2 {
+    margin-top: 20px;
+    padding: 10px;              /* Add some padding inside the box */
+    background-color: black;    /* Black background for the box */
+    border: 2px;    /* White border around the box */
+    color: white;               /* Make the text white */
+    text-align: center;         /* Center the text inside the box */
+    width: fit-content;         /* Adjust width based on the content */
+    margin: 20px auto;          /* Center the box horizontally */
+    border-radius: 0px;        /* Optional: Rounded corners for the box */
+    opacity: 70%;
+    animation: blink 1s 3;
+    font-family: 'Special Elite', monospace;
+    font-size: 30px !important;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape the Algorithm</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body class="blinking-background">
+    <audio id="background-audio" autoplay loop>
+        <source src="audio3.m4a" type="audio/mpeg">
+    </audio>
+    
+    
+    <div class="group">
+        <h1 id="top">Who is the Killer?</h1>
+        <label for="password">Enter your answer to solve the mystery:</label>
+        <br></br>
+        <input type="password" id='password' placeholder="Please Enter Your Answer">
+        <button onclick="performLogin()">Check</button>
+        <br></br>
+        <div id="login-message" style="font-weight: bold;"></div>
+    </div>
+
+    <script src="demo.js"></script>
+</body>
+</html>
