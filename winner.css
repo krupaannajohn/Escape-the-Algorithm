@@ -52,7 +52,7 @@ h1 {
     margin: 20px auto;          /* Center the box horizontally */
     border-radius: 0px;        /* Optional: Rounded corners for the box */
     opacity: 70%;
-    animation: blink 3s 3;
+    animation: blink 3s 5;
     font-family: 'Creepster';
     font-size: 150px !important;
 }
@@ -68,7 +68,7 @@ h2 {
     margin: 20px auto;          /* Center the box horizontally */
     border-radius: 0px;        /* Optional: Rounded corners for the box */
     opacity: 70%;
-    animation: blink 3s 3;
+    animation: blink 3s 5;
     font-family: 'Special Elite', monospace;
     font-size: 30px !important;
 }
